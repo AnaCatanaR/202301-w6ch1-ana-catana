@@ -1,5 +1,5 @@
 import { TodoStructure } from "../../types";
-
+import "./TaskCard.css";
 interface CardTaskProps {
   toDo: TodoStructure;
 }
