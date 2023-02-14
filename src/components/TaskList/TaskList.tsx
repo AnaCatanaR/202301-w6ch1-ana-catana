@@ -1,5 +1,6 @@
 import TaskCard from "../TaskCard/TaskCard";
 import toDos from "../../data/toDos";
+import "./TaskList.css";
 
 const TaskList = (): JSX.Element => {
   return (
