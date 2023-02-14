@@ -11,9 +11,9 @@ const TaskCard = ({
     <>
       <article className="card-task">
         <div className="card-task__task">
-          <span className="">
+          <h2 aria-label="Task description">
             {id} {name}
-          </span>
+          </h2>
           <span>{isDone}✓</span>
         </div>
 
